@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap:400');
+body{
+    background-color: aquamarine;    
+    background: linear-gradient(to right, rgb(62, 62, 107), aquamarine);
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding: 50px;
+    margin-top: auto;
+    font-family: 'Protest Revolution' , monospace;
+    color: #808080;
+    border: 10px solid black;
+    border-radius: 100px;
+   background-color: beige;
+}
+img{
+    border-radius: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+}
+.page{
+    font-size: 50px;
+    text-align: center;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding: 50px;
+    margin-top: auto;
+
+}
