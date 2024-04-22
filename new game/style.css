@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: blueviolet;
+    background: linear-gradient(to right, rgb(64, 64, 164), blueviolet);
+    margin: 0; /* ensure no default margin */
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* This ensures centering for content */
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 312px;
+    margin: auto;
+}
