@@ -59,7 +59,7 @@ function checkWinner(){
         }
     }
 
-    if(roundWon){
+    if(roundWon==true){
         statusText.textContent = `${currentPlayer} wins!`;
         running = false;
     }
